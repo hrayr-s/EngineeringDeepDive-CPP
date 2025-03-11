@@ -13,7 +13,7 @@ int main()
 {
     // std::vector<int> v = {11, 23, 45, 89};
 
-    vector<int> v1 = {1, 2, 3, 4}; // Direct initialization
+    vector<int> v1 {1, 2, 3, 4}; // Direct initialization
     vector<char> v2 = {'5', '6', '7', '8'};
     vector<string> v3 = {"5", "6", "7", "8"};
     vector<pair<string, string>> v4 = {{"Pyotr", "Tchaikovsky"}, {"Alexander", "Pushkin"}, {"Johann", "Bach"}};
